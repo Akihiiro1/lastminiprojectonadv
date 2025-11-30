@@ -1,10 +1,10 @@
 "use client";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import Header from './Header';
-import Inputs from './Inputs';
-import Buttons from './Buttons';
-import UserList from './List';
+import Header from './component/Header';
+import Inputs from './component/Inputs';
+import Buttons from './component/Buttons';
+import UserList from './component/List';
 
 const API_URL = "http://localhost:3001/users";
 
